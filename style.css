@@ -1,0 +1,67 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+main {
+  border: 2px solid red;
+  background: #FF9E0E;
+  background: radial-gradient(ellipse at center, #FF9E0E, #FFE901);
+  width: auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  main section {
+    width: 60vw;
+    height: 25vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    main section .left_eye, main section .right_eye {
+      background-color: white;
+      -webkit-box-shadow: -3px 6px 20px -10px rgba(251, 255, 14, 0.918), -8px 6px 40px -9px #ff9f0e inset;
+              box-shadow: -3px 6px 20px -10px rgba(251, 255, 14, 0.918), -8px 6px 40px -9px #ff9f0e inset;
+      -webkit-clip-path: circle();
+              clip-path: circle();
+      border-radius: 50%;
+      width: 20vw;
+      height: 20vw;
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      main section .left_eye .styl_inner_eye, main section .right_eye .styl_inner_eye {
+        border: 10px solid #ff9e0e;
+        background-color: black;
+        border-radius: 50%;
+        width: 7vw;
+        height: 7vw;
+        position: absolute;
+        bottom: 0%;
+        -webkit-transform: translate(-50, -50);
+                transform: translate(-50, -50); }
+
+/*# sourceMappingURL=style.css.map */
